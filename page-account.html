@@ -389,29 +389,77 @@
                                             <div class="card-header">
                                                 <h3 class="mb-0">Đơn hàng khả dụng</h3>
                                             </div>
-                                            <div class="card-body">
-                                                <div class="table-responsive">
-                                                    <table class="table">
-                                                        <thead>
-                                                            <tr>
-                                                                <th>Mã đơn</th>
-                                                                <th>Ngày tạo đơn</th>
-                                                                <th>Trạng thái</th>
-                                                                <th>Tổng cộng</th>
-                                                                <th></th>
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>#8888</td>
-                                                                <td>March 45, 2024</td>
-                                                                <td>Processing</td>
-                                                                <td>$125.00 for 2 item</td>
-                                                                <td><a href="order-detail.html"
-                                                                        class="btn-small d-block">Chi tiết</a></td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
+                                            <ul class="nav nav-tabs" id="order" role="tablist">
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link active" id="vc-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#vr" type="button" role="tab" aria-controls="vr"
+                                                        aria-selected="true">Vườn Chung </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="vr-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#vc" type="button" role="tab" aria-controls="vc"
+                                                        aria-selected="false">Vường
+                                                        Riêng</button>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content" id="orderContent">
+                                                <div class="tab-pane fade show active" id="vc" role="tabpanel"
+                                                    aria-labelledby="vc-tab">
+                                                    <div class="card-body">
+                                                        <div class="table-responsive">
+                                                            <table class="table">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>Mã đơn</th>
+                                                                        <th>Ngày tạo đơn</th>
+                                                                        <th>Trạng thái</th>
+                                                                        <th>Tổng cộng</th>
+                                                                        <th></th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>#8888</td>
+                                                                        <td>March 45, 2024</td>
+                                                                        <td>Processing</td>
+                                                                        <td>$125.00 for 2 item</td>
+                                                                        <td><a href="order-detail.html"
+                                                                                class="btn-small d-block">Chi tiết</a>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="vr" role="tabpanel"
+                                                    aria-labelledby="vr-tab">
+                                                    <div class="card-body">
+                                                        <div class="table-responsive">
+                                                            <table class="table">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>Mã đơn</th>
+                                                                        <th>Ngày tạo đơn</th>
+                                                                        <th>Trạng thái</th>
+                                                                        <th>Tổng cộng</th>
+                                                                        <th></th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>#9999</td>
+                                                                        <td>March 45, 2024</td>
+                                                                        <td>Processing</td>
+                                                                        <td>$125.00 for 2 item</td>
+                                                                        <td><a href="order-detail.html"
+                                                                                class="btn-small d-block">Chi tiết</a>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>

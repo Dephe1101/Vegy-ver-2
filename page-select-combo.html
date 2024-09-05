@@ -290,62 +290,130 @@
             <div class="don-hang-kha-dung">
                 <div class="container">
                     <header>
-                        <div class="filterEntries">
-                            <div class="entries d-flex align-items-center">
-                                <p class="me-2">Show</p><select name="" id="table_size">
-                                    <option value="10">10</option>
-                                    <option value="20">20</option>
-                                    <option value="50">50</option>
-                                    <option value="100">100</option>
-                                </select>
-                                <p class="ms-2">entries</p>
-                            </div>
-                        </div>
+                        <ul class="nav nav-tabs" id="selectComboTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="super-tab" data-bs-toggle="tab"
+                                    data-bs-target="#super" type="button" role="tab" aria-controls="super"
+                                    aria-selected="true">Super</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="prime-tab" data-bs-toggle="tab" data-bs-target="#prime"
+                                    type="button" role="tab" aria-controls="prime" aria-selected="false">Prime</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="eco-tab" data-bs-toggle="tab" data-bs-target="#eco"
+                                    type="button" role="tab" aria-controls="eco" aria-selected="false">Eco</button>
+                            </li>
+                        </ul>
                     </header>
-                    <table class="table">
-                        <thead>
-                            <tr class="heading">
-                                <th scope="col">Mã Đơn</th>
-                                <th scope="col">Loại Rau</th>
-                                <th scope="col"> Tên Thẻ</th>
-                                <th scope="col">Tên Gói</th>
-                                <th scope="col">Loại Gói Hàng</th>
-                                <th scope="col">Số Lượng Gói Hàng</th>
-                                <th scope="col">Action</th>
-                            </tr>
-                        </thead>
-                        <tbody class="userInfo">
-                            <!-- <tr>
+                    <div class="tab-content" id="selectComboTabContent">
+                        <div class="tab-pane fade show active" id="super" role="tabpanel" aria-labelledby="super-tab">
+                            <h5 class="mb-3"> Mã Đơn : ORD118888</h5>
+                            <table class="table">
+                                <thead>
+                                    <tr class="heading">
+                                        <th scope="col">Loại Rau</th>
+                                        <th scope="col">Loại Gói Hàng</th>
+                                        <th scope="col">Số Lượng Gói Hàng</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="userInfo">
+                                    <!-- <tr>
                                         <td class="empty" colspan="11" align="center">No data available in table</td>
                                     </tr> -->
-                            <tr>
-                                <td scope="row">ORD11012222</td>
-                                <td>Cải</td>
-                                <td>Member-2000</td>
-                                <td>Eco</td>
-                                <td>
-                                    <select class="form-select" aria-label="Default select example">
-                                        <option selected>Chọn kích cỡ gói hàng</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                    </select>
-                                </td>
-                                <td>
-                                    <div class="input-group flex-nowrap">
-                                        <input type="number" class="form-control" placeholder="0" aria-label="Username"
-                                            aria-describedby="addon-wrapping">
-                                    </div>
-                                </td>
-                                <td>
-                                    <button><i class="fa-regular fa-eye"></i></button>
-                                    <button><i class="fa-regular fa-pen-to-square"></i></button>
-                                    <button><i class="fa-regular fa-trash-can"></i></button>
-                                </td>
-                            </tr>
-                        </tbody>
+                                    <tr>
+                                        <td>Cải</td>
+                                        <td>
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Chọn kích cỡ gói hàng</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <div class="input-group flex-nowrap">
+                                                <input type="number" class="form-control" placeholder="0"
+                                                    aria-label="Username" aria-describedby="addon-wrapping">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
 
-                    </table>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade" id="prime" role="tabpanel" aria-labelledby="prime-tab">
+                            <h5 class="mb-3"> Mã Đơn : ORD118888</h5>
+                            <table class="table">
+                                <thead>
+                                    <tr class="heading">
+                                        <th scope="col">Loại Rau</th>
+                                        <th scope="col">Loại Gói Hàng</th>
+                                        <th scope="col">Số Lượng Gói Hàng</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="userInfo">
+                                    <!-- <tr>
+                                        <td class="empty" colspan="11" align="center">No data available in table</td>
+                                    </tr> -->
+                                    <tr>
+                                        <td>Súp lơ</td>
+                                        <td>
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Chọn kích cỡ gói hàng</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <div class="input-group flex-nowrap">
+                                                <input type="number" class="form-control" placeholder="0"
+                                                    aria-label="Username" aria-describedby="addon-wrapping">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+                        </div>
+                        <div class="tab-pane fade" id="eco" role="tabpanel" aria-labelledby="eco-tab">
+                            <h5 class="mb-3"> Mã Đơn : ORD118888</h5>
+                            <table class="table">
+                                <thead>
+                                    <tr class="heading">
+                                        <th scope="col">Loại Rau</th>
+                                        <th scope="col">Loại Gói Hàng</th>
+                                        <th scope="col">Số Lượng Gói Hàng</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="userInfo">
+                                    <!-- <tr>
+                                        <td class="empty" colspan="11" align="center">No data available in table</td>
+                                    </tr> -->
+                                    <tr>
+                                        <td>Xà Lách</td>
+                                        <td>
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Chọn kích cỡ gói hàng</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <div class="input-group flex-nowrap">
+                                                <input type="number" class="form-control" placeholder="0"
+                                                    aria-label="Username" aria-describedby="addon-wrapping">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+                        </div>
+                    </div>
+
                     <div class="d-flex justify-content-end btn-send-order mt-5">
                         <a href="#" class="btn btn-fill-out btn-block mt-30">Gửi yêu cầu đơn hàng<i
                                 class="fi-rs-sign-out ml-15"></i></a>

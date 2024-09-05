@@ -11693,3 +11693,16 @@ td {
   font-family: "Quicksand", sans-serif;
   font-weight: bold;
 }
+
+#order button,
+#selectComboTab button {
+  background-color: transparent;
+}
+
+#order {
+  padding-left: 1rem;
+}
+
+#selectComboTab {
+  margin-bottom: 20px;
+}
