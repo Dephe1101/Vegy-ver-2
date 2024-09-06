@@ -230,7 +230,7 @@ $(".step05").click(function () {
             adaptiveHeight: true,
             responsive: [
                 {
-                    breakpoint: 1200,
+                    breakpoint: 1342,
                     settings: {
                         slidesToShow: 8,
                         slidesToScroll: 1
@@ -287,6 +287,13 @@ $(".step05").click(function () {
                     settings: {
                         slidesToShow: 3,
                         slidesToScroll: 4
+                    }
+                },
+                {
+                    breakpoint: 1199,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 3
                     }
                 },
                 {

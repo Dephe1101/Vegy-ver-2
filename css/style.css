@@ -4948,7 +4948,7 @@ table.no-border thead {
 .archive-header {
   background: url(../assets/imgs/blog/header-bg.png) no-repeat center center;
   border-radius: 20px;
-  padding: 70px 80px;
+  padding: 30px 0px 70px 80px;
   background-size: cover;
 }
 
@@ -10652,15 +10652,6 @@ footer .hotline img {
   }
 }
 
-@media (max-width: 415px) {
-  .btn {
-    font-size: 10px;
-    height: 40px;
-  }
-  .process-wrapper {
-    display: none;
-  }
-}
 /*Wide screen*/
 @media only screen and (min-width: 1600px) {
   .header-action-right .search-location {
@@ -11705,4 +11696,22 @@ td {
 
 #selectComboTab {
   margin-bottom: 20px;
+}
+
+@media (max-width: 415px) {
+  .btn {
+    font-size: 10px;
+    height: 40px;
+  }
+  .process-wrapper {
+    display: none;
+  }
+  .banner-text a {
+    height: 32px;
+  }
+  #custome-nav-link .nav-link {
+    padding: 11px 15px !important;
+    font-size: 15px;
+    margin-right: 0;
+  }
 }
