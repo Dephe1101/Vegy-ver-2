@@ -141,14 +141,14 @@ $(".step05").click(function () {
                     breakpoint: 1025,
                     settings: {
                         slidesToShow: 4,
-                        slidesToScroll: 1
+                        slidesToScroll: 2
                     }
                 },
                 {
                     breakpoint: 768,
                     settings: {
                         slidesToShow: 3,
-                        slidesToScroll: 1
+                        slidesToScroll: 2
                     }
                 },
                 {
@@ -188,14 +188,14 @@ $(".step05").click(function () {
                     breakpoint: 1025,
                     settings: {
                         slidesToShow: 4,
-                        slidesToScroll: 1
+                        slidesToScroll: 2
                     }
                 },
                 {
                     breakpoint: 768,
                     settings: {
                         slidesToShow: 3,
-                        slidesToScroll: 1
+                        slidesToScroll: 2
                     }
                 },
                 {
@@ -233,21 +233,21 @@ $(".step05").click(function () {
                     breakpoint: 1342,
                     settings: {
                         slidesToShow: 8,
-                        slidesToScroll: 1
+                        slidesToScroll: 2
                     }
                 },
                 {
                     breakpoint: 1025,
                     settings: {
                         slidesToShow: 4,
-                        slidesToScroll: 1
+                        slidesToScroll: 2
                     }
                 },
                 {
                     breakpoint: 768,
                     settings: {
                         slidesToShow: 3,
-                        slidesToScroll: 1
+                        slidesToScroll: 2
                     }
                 },
                 {
@@ -286,14 +286,14 @@ $(".step05").click(function () {
                     breakpoint: 1240,
                     settings: {
                         slidesToShow: 3,
-                        slidesToScroll: 4
+                        slidesToScroll: 2
                     }
                 },
                 {
                     breakpoint: 1199,
                     settings: {
                         slidesToShow: 2,
-                        slidesToScroll: 3
+                        slidesToScroll: 2
                     }
                 },
                 {
