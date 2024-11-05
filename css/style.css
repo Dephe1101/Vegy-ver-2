@@ -4088,6 +4088,7 @@ table .product-thumbnail img {
   box-shadow: 0 -3px 23px rgba(0, 0, 0, 0.06);
   color: #7e7e7e;
   font-weight: 500;
+  width: 150%;
 }
 .sort-by-dropdown.show {
   opacity: 1;
@@ -11717,4 +11718,16 @@ td {
   .carausel-3-columns-cover #carausel-3-columns-arrows {
     display: none;
   }
+}
+
+.archive-header-2 {
+  background: url(../assets/imgs/blog/header-bg.png) no-repeat center center;
+  border-radius: 20px;
+  padding: 30px 0px 30px 80px;
+  background-size: cover;
+}
+
+#vuon-rieng-item .motachung {
+  top: 50%;
+  transform: translateY(-50%);
 }
